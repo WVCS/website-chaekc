@@ -1,3 +1,37 @@
 body {
+}
+h1 {
+  color: #260A03;
+  font-size: 60px;
+  text-align: center;
+  text-decoration: overline;
+}
 
+body {
+  background-color: #D7EBBA;
+}
+
+nav {
+  list-style-type: none;
+  position: fixed;
+  background-color: #1E2F0F;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  padding: 14px;
+  color: white;
+}
+
+li {
+  display: inline;
+  padding: 35px;
+}
+
+a {
+  text-decoration: none;
+  color: #D7EBBA;
+}
+
+a:hover {
+  color: #D59385;
 }
